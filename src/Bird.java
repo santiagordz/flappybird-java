@@ -3,7 +3,7 @@ import java.awt.event.KeyEvent;
 
 public class Bird extends Sprite {
     private double  dy = 1;
-    private double  gravity = 0.05;
+    private double  gravity = 0.5;
     private boolean isJumping = false;
 
     public Bird() {

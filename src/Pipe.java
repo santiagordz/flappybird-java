@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Pipe extends Sprite{
-    private double  dx = 3;
+    private double  dx = 10;
     private boolean isBottom;
 
     public Pipe(int x, int y, boolean isBottom) {

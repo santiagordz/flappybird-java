@@ -25,7 +25,7 @@ public class Board extends JPanel implements ActionListener {
 
     private void initUI() {
         addKeyListener(new TAdapter());
-        setBackground(Color.WHITE);
+        setBackground(Color.BLACK);
         setFocusable(true);
 
         bird = new Bird();
@@ -92,7 +92,7 @@ public class Board extends JPanel implements ActionListener {
         String msg = "Game Over";
         Font small = new Font("Helvetica", Font.BOLD, 28);
         FontMetrics fm = getFontMetrics(small);
-        g.setColor(Color.BLACK);
+        g.setColor(Color.WHITE);
         g.setFont(small);
         g.drawString(msg, (B_WIDTH - fm.stringWidth(msg)) / 2, B_HEIGHT / 2);
     }
